@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+body{
+    color: #000000;
+    font-size: 48px;
+    background-color: #000000;
+}
+.line-1{
+    background-color: #000000;
+    color: #66FF66;
+    text-shadow: 0 0 10px #33FF33;
+    width: 14ch;
+    border-right: 1ch solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.anim-typewriter-1{
+    animation: typewriter-1 1.25s steps(14) 2s 1 normal both,
+    blinkTextCursor 1s steps(14) infinite normal;
+}
+@keyframes typewriter-1{
+    from{width: 0;}
+    to{width: 14ch;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(102,255,102,.75);}
+    to{border-right-color: transparent;}
+}
+.line-2{
+    background-color: #000000;
+    color: #66FF66;
+    text-shadow: 0 0 10px #33FF33;
+    width: 19ch;
+    border-right: 1ch solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.anim-typewriter-2{
+    animation: typewriter-2 1.70s steps(14) 2.00s 1 normal both,
+    blinkTextCursor 1s steps(19) infinite normal;
+}
+@keyframes typewriter-2{
+    from{width: 0;}
+    to{width: 19ch;}
+}
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(102,255,102,.75);}
+    to{border-right-color: transparent;}
+}
